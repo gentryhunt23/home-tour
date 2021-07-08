@@ -8,7 +8,7 @@ public class RoomManager {
 	public void init() {
 	    Room foyer = new Room(
 			"The Foyer",
-			"a small entryway",
+			"A small lobby near the home's entry door",
 			"The small entryway upon entering the home. There are not many places to go inside my small home but you are more than welcomed to take a peek around." + "\n"
 			+ "The stairs to the carpeted path to the left will take you to the bedroom where the bathroom is also located." + "\n"
 			+ "To the right is a small hallway that leads to the kitchen and through the kitchen is the living room, where you can watch TV.");
@@ -25,7 +25,7 @@ public class RoomManager {
     	        
         Room bathroom = new Room(
 			"The bathroom",
-			"Where narcissism may take place",
+			"CAUTION: Where narcissism may take place",
 			"The full bathroom contains a porcelain 'john' and beautiful vanity." + "\n"
 			+ "There is a limestone tiled shower with a waterfall shower fixture andbuilt in steam room." + "\n"
 			+ "There is a window that can be opened and when you are all finished you can exit back into the bedroom to the right.");

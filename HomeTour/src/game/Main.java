@@ -60,9 +60,10 @@ public class Main {
 	}
 
 	private static void printRoom(Player player) {
-		System.out.println(player.currentRoom.getName() + "\n");
+		System.out.println("Welcome to " + player.currentRoom.getName() + "\n");
 		System.out.println(player.currentRoom.getShortDescription() + "\n");
 		System.out.println(player.currentRoom.getLongDescription()+ "\n");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("Where would you like to go next? Left, Right or leave?");
 
 
